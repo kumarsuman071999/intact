@@ -36,7 +36,7 @@ function WorkItem() {
         </thead>
         <tbody>
           {workItems.map((item, index) => (
-            <tr key={index}>
+            <tr key={index} className="table-row">
               <td>{item.id}</td>
               <td>{item.date}</td>
               <td>{item.workType}</td>
